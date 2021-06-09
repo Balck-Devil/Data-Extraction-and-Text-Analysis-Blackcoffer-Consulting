@@ -2,34 +2,33 @@
 
 ## EDGAR-reports-Text-Analysis
 
-
 In this project, text data extraction and text analytics was performed on EDGAR filling. The analysis was on done on 10k and 10Q filling. It was performed using python.
 
-Input
+## Input
 The input files consist of different filling from EDGAR. The format was .txt. Total 152 files were processed.
 
-Extraction and Analysis
+## Extraction and Analysis
 A. Basic cleaning was performed and target sections were extracted using regex.
 
 Target section were -
 
-Management's Discussion and Analysis
+  1.Management's Discussion and Analysis
 
-Quantitative and Qualitative Disclosures about Market Risk
+  2.Quantitative and Qualitative Disclosures about Market Risk
 
-Risk Factors
+  3.Risk Factors
 
 B. Different parts of text analysis were performed which included -
 
-Sentiment Analysis
+  1.Sentiment Analysis
 
-Analysis of Readability
+  2.Analysis of Readability
 
-complex word count
+  3.complex word count
 
-word count
+  4.word count
 
-Sentiment Analysis
+## Sentiment Analysis
 Sentiment Analysis was performed using lexical based approach.
 
 Positive Score: This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
@@ -40,7 +39,7 @@ Polarity Score: This is the score that determines if a given text is positive or
 
 All the required dictionaries were created using - https://sraf.nd.edu/textual-analysis/resources/#LM%20Sentiment%20Word%20Lists
 
-Analysis of Readability
+## Analysis of Readability
 Average sentence length, Fog index, complex word count and total word count were calculated. The following formulas were used -
 
 Average Sentence Length = the number of words / the number of sentences
