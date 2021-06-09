@@ -1,5 +1,6 @@
 # Data-Extraction-and-Text-Analysis-Blackcoffer-Consulting
-EDGAR-reports-Text-Analysis
+
+## EDGAR-reports-Text-Analysis
 
 
 In this project, text data extraction and text analytics was performed on EDGAR filling. The analysis was on done on 10k and 10Q filling. It was performed using python.
